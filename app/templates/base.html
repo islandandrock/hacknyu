@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{% if title %}{{ title }} - BlocksChain{% else %}{{ _('BlocksChain') }}{% endif %}</title>
+        {% block css %}{% endblock %}
+        {% block scripts %}{% endblock %}
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+  </body>
+</html>
